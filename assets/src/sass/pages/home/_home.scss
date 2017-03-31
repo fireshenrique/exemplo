@@ -1,0 +1,67 @@
+.conteudo{
+  font-family: 'Roboto', sans-serif;
+  .carousel{
+    margin-top: 2rem;
+    .fa-chevron-circle-right{
+      position: absolute;
+      right: 15px;
+      z-index: 10;
+      color: #fff;
+      font-size: 4rem;
+      top:40%;
+    }
+    .fa-chevron-circle-left{
+      position: absolute;
+      left: 15px;
+      z-index: 10;
+      color: #fff;
+      font-size: 4rem;
+      top:40%;
+    }
+    .slick-slide img:hover{
+      transform: scale(1);
+    }
+  }
+  h1,h2{
+    color: $azul-claro-texto;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  button{
+    background: $azul-claro;
+    color: $branco;
+    border-top: none;
+    border-bottom: 2px solid #5da0a4;
+    border-right: none;
+    border-left: none;
+    border-radius: 3px;
+    width: 190px;
+    padding: 0.75rem 0;
+  }
+  .botao-1{
+    margin-top: 3rem;
+  }
+  .botao-2, .botao-3{
+    margin-top: 3.5rem;
+  }
+  .titulo-conteudo{
+    h1{
+      font-size: 3.6rem;
+      padding-left: 1.5rem;
+    }
+  }
+  .colunas{
+    padding: 0 2rem 4rem;
+    display: inline-block;
+    .subtitulo-conteudo{
+      h2{
+        font-size: 2.4rem;
+      }
+    }
+    .texto-coluna{
+      p{
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

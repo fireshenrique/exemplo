@@ -1,0 +1,65 @@
+@media screen and (min-width:991px) and (max-width:1200px){
+  .navbar #navbar .main-navigation{
+    float: none!important;
+  }
+  .form-header{
+    input{
+      width: 120px;
+    }
+  }
+}
+@media screen and (min-width:769px) and (max-width:991px){
+  .navbar #navbar .main-navigation{
+    float: none!important;
+    margin-top: 9rem!important;
+  }
+}
+
+
+
+
+@media screen and (max-width: 768px){
+  .navbar .form-header{
+    margin-top: 1.5rem!important;
+  }
+  .navbar #navbar .main-navigation{
+    float: right;
+    padding-left: 0;
+    margin-top: 1rem!important;
+    margin-right: 0rem!important;
+    }
+  .navbar-toggle{
+    margin-top: 2.5rem!important;
+  }
+  .navbar{
+    .logo{
+      padding: 2.5rem 0 2.5rem 1.5rem!important;
+    }
+  }
+  .form-header{
+    float: none !important;
+    display: block;
+    width: 290px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto 1rem;
+    input{
+      margin: 1.5rem 1.5rem 0!important;
+    }
+    button{
+      margin: 1.5rem 1.5rem!important;
+    }
+  }
+  #navbar{
+    .main-navigation{
+      float: none!important;
+      text-align: center;
+
+      li{
+        padding: 1rem 0!important;
+        border: none!important;
+        display: block!important;
+      }
+    }
+  }
+}

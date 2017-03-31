@@ -1,0 +1,32 @@
+@media screen and (max-width:991px){
+.colunas{
+    .botao-2, .botao-3{
+      margin-top: 2.75rem!important;
+    }
+    .coluna-2{
+      display: inline-block;
+    }
+    .coluna-3{
+      display: inline-block;
+      .botao-3{
+        margin-bottom: 5rem;
+      }
+    }
+  }
+}
+@media screen and (max-width:768px){
+  .coluna-2, .coluna-3{
+    margin-top: 3rem;
+  }
+  .conteudo .colunas .subtitulo-conteudo h2{
+    text-align: center;
+  }
+  .colunas .botao-1, .colunas .botao-2, .colunas .botao-3{
+    text-align: center;
+  }
+  .img-coluna-1{
+    img{
+      margin: 0 auto;
+    }
+  }
+}

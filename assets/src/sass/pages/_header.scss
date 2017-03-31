@@ -1,0 +1,60 @@
+.navbar{
+  border-top: 3px solid rgba(106, 181, 188, 0.7);
+  .logo{
+    padding: 2.5rem 0;
+  }
+  #navbar{
+    .main-navigation{
+      float: right;
+      margin-top: 3.5rem;
+      margin-right: 7rem;
+      li{
+        display: inline-block;
+        font-weight: 400;
+        padding: 0 1rem;
+        border-right: 2px solid $azul-claro;
+        text-transform: uppercase;
+        font-family: 'tahoma', sans-serif;
+        &:first-child{
+          font-weight: bold;
+        }
+        &:last-child{
+          border-right: none;
+        }
+        a{
+          font-size: 1.6rem;
+          color: #333333;
+        }
+      }
+    }
+  }
+  .form-header{
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    background-color: $azul-claro;
+    margin-top: -3px;
+    border-radius: 3px;
+
+    input{
+      margin: 2.5rem 0 1.5rem 1.5rem;
+      border-radius: 2px;
+      border: none;
+      padding: 0.5rem;
+      font-style: italic;
+      font-size: 1.4rem;
+
+    }
+    button{
+      background-color: $azul-botao;
+      border-radius: 3px;
+      color: #fff;
+      margin: 0 1.5rem;
+      border-top: none;
+      border-bottom: 2px solid#3b7274;
+      border-right: none;
+      padding: 0.25rem 1.5rem;
+      border-left: none;
+      font-weight: bold;
+    }
+  }
+}
